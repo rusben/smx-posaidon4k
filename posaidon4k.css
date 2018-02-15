@@ -25,6 +25,7 @@ img {
 	height: auto;
 }
 
+
 #main-header {
 	background: #333;
 	color: white;
@@ -34,6 +35,9 @@ img {
 		color: white;
 	}
 
+	#main-header a:hover{
+		color: red;
+	}
 /*
  * Logo
  */
@@ -85,7 +89,7 @@ nav {
 			}
 
 				nav ul li a:hover {
-					background: #0b76a6;
+					background: black;
 				}
 
 
@@ -118,4 +122,4 @@ nav {
 
 		#main-footer a {
 			color: white;
-} 
+}
