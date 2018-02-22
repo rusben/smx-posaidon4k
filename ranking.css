@@ -1,0 +1,175 @@
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #989c9b;
+}
+
+.container > header {
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+
+}
+
+.container > header h1 {
+  font-weight: 600;
+	font-size: 3em;
+	margin: 0;
+	color: red
+}
+
+.wrapper {
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+	width: 90%;
+	max-width: 2000px;
+	overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+th {
+    background-color: #326295;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 1em 1.5em;
+    text-align: left;
+}
+
+tbody th {
+	background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(50,98,149,.3);
+}
+
+td.rank {
+	text-transform: capitalize;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #404040;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.9em;
+	margin: 5px 0;
+	text-align: center;
+	font-weight: 900;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 64%;
+	height: auto;
+}
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+
+				nav ul li a:hover {
+					background: black;
+				}
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+	box-shadow: 0 0 10px rgba(255,0,0,.50);
+}
+	#main-header a {
+		color: white;
+	}
+
+	#main-header a:hover {
+		color: red;
+	}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: red;
+	}
+
+	#logo-header .site-name {
+		display: block;
+		font-weight: 900;
+		font-size: 1.2em;
+	}
+
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: red;
+	}
+
+				#main-content {
+	background: #181818;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(255,0,0,.50);
+}
+
+
+	#main-content .content {
+		padding: 40px;
+	}
+
+	#main-footer {
+		background: #333;
+		color: white;
+		text-align: center;
+		padding: 30px;
+		margin-top: 500px;
+		box-shadow: 0 0 10px rgba(255,0,0,.50);
+	}
+		#main-footer p {
+			margin: 0;
+		}
+
+		#main-footer a {
+			color: white;
+}
