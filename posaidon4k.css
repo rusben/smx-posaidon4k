@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background: #f2f2f2;
+	background: #474747;
 	font-size: 1em;
 	line-height: 1.4em;
 }
@@ -30,6 +30,7 @@ img {
 	background: #333;
 	color: white;
 	height: 80px;
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.60);
 }
 	#main-header a {
 		color: white;
@@ -95,11 +96,12 @@ nav {
 
 
 				#main-content {
-	background: white;
+	background: #181818;
 	width: 90%;
 	max-width: 800px;
 	margin: 20px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.60);
+
 }
 
 	#main-content header,
@@ -115,6 +117,7 @@ nav {
 		text-align: center;
 		padding: 30px;
 		margin-top: 500px;
+		box-shadow: 0 0 10px rgba(255, 0, 0, 0.60);
 	}
 		#main-footer p {
 			margin: 0;
