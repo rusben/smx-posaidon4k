@@ -38,7 +38,11 @@ table {
 }
 
 th {
+<<<<<<< HEAD
     background-color: black;
+=======
+    background-color: red;
+>>>>>>> 273c9f68ff3f17e7f83fd513b560e86e6034c925
     font-weight: bold;
     color: white;
     white-space: nowrap;
@@ -50,20 +54,20 @@ td, th {
 }
 
 tbody th {
-	background-color: #2ea879;
+	background-color: #393939;
 }
 tbody tr:nth-child(2n-1) {
-    background-color: #f5f5f5;
-    transition: all .125s ease-in-out;
+	background-color: #606060;
+
 }
 tbody tr:hover {
-    background-color: rgba(50,98,149,.3);
+    background-color: rgba(255,0,0,.23);
 }
 
 td.rank {
 	text-transform: capitalize;
 }
-<<<<<<< HEAD
+
 body {
 	margin: 0;
 	padding: 0;
@@ -121,13 +125,7 @@ nav {
 	height: 80px;
 	box-shadow: 0 0 10px rgba(255,0,0,.50);
 }
-	#main-header a {
-		color: white;
-	}
 
-	#main-header a:hover {
-		color: red;
-	}
 
 #logo-header {
 	float: left;
