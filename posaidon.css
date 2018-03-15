@@ -95,10 +95,10 @@ nav {
 				#main-content {
 	background: #181818;
 	width: 90%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 20px auto;
 
-	box-shadow: 0 0 10px rgba(255,0,0,.50);
+	box-shadow: 0 0 10px rgba(255,0,0,.60);
 
 }
 
@@ -112,9 +112,9 @@ nav {
 		color: white;
 		text-align: center;
 		padding: 30px;
-		margin-top: 500px;
+		margin-top: 10px;
 
-		box-shadow: 0 0 10px rgba(255,0,0,.50);
+		box-shadow: 0 0 10px rgba(255,0,0,.60);
 
 	}
 		#main-footer p {
