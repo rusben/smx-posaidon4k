@@ -16,16 +16,6 @@ h1 {
 	font-weight: 900;
 }
 
-h2 {
-	font-size: 1.8em;
-	line-height: 1.3em;
-	margin: 10px 0;
-	text-align: left;
-	font-weight: 800;
-	color: #FFFFFFFF;
-
-}
-
 p {
 	margin: 0 0 1.5em 0;
 }
@@ -50,7 +40,7 @@ img {
 
 	#main-header a:hover{
 		color: red;
-	}
+}
 /*
  * Logo
  */
@@ -61,11 +51,7 @@ img {
 	text-decoration: none;
 }
 	#logo-header:hover {
-<<<<<<< HEAD
 		color: red;
-=======
-		color: RED;
->>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 	}
 
 	#logo-header .site-name {
@@ -78,11 +64,7 @@ img {
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
-<<<<<<< HEAD
 		color: red;
-=======
-		color: RED;
->>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 	}
 
 nav {
@@ -107,23 +89,18 @@ nav {
 			}
 
 				nav ul li a:hover {
-<<<<<<< HEAD
 					background: black;
-=======
-					background: BLACK;
->>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 				}
 
 				#main-content {
 	background: #181818;
 	width: 90%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 20px auto;
 
-	box-shadow: 0 0 10px rgba(255,0,0,.50);
+	box-shadow: 0 0 10px rgba(255,0,0,.60);
 
 }
-
 	#main-content header,
 	#main-content .content {
 		padding: 40px;
@@ -134,9 +111,8 @@ nav {
 		color: white;
 		text-align: center;
 		padding: 30px;
-		margin-top: 500px;
-
-		box-shadow: 0 0 10px rgba(255,0,0,.50);
+		margin-top: 10px;
+		box-shadow: 0 0 10px rgba(255, 0, 0, 0.60);
 
 	}
 		#main-footer p {
