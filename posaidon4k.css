@@ -16,6 +16,16 @@ h1 {
 	font-weight: 900;
 }
 
+h2 {
+	font-size: 1.8em;
+	line-height: 1.3em;
+	margin: 10px 0;
+	text-align: left;
+	font-weight: 800;
+	color: #FFFFFFFF;
+
+}
+
 p {
 	margin: 0 0 1.5em 0;
 }
@@ -51,7 +61,11 @@ img {
 	text-decoration: none;
 }
 	#logo-header:hover {
+<<<<<<< HEAD
 		color: red;
+=======
+		color: RED;
+>>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 	}
 
 	#logo-header .site-name {
@@ -64,7 +78,11 @@ img {
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
+<<<<<<< HEAD
 		color: red;
+=======
+		color: RED;
+>>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 	}
 
 nav {
@@ -89,7 +107,11 @@ nav {
 			}
 
 				nav ul li a:hover {
+<<<<<<< HEAD
 					background: black;
+=======
+					background: BLACK;
+>>>>>>> 819a5b17563dec9eb00b8ec0aefc3ff7d3a99f13
 				}
 
 				#main-content {
