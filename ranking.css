@@ -168,3 +168,5 @@ nav {
 		#main-footer a {
 			color: white;
 }
+
+.clickable { cursor: pointer;}
