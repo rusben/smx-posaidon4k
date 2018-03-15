@@ -38,7 +38,7 @@ img {
 		color: white;
 	}
 
-<<<<<<< HEAD:index.css
+
 	#main-header a:hover{
 		color: red;
 	}
@@ -46,8 +46,6 @@ img {
  * Logo
  */
 
-=======
->>>>>>> ff5d3894cebdc2910dd9441942a23f2ed2d1052f:posaidon4k.css
 #logo-header {
 	float: left;
 	padding: 15px 0 0 20px;
@@ -101,7 +99,7 @@ nav {
 	max-width: 1000px;
 	margin: 20px auto;
 
-	box-shadow: 0 0 10px rgba(255,0,0,.50);
+	box-shadow: 0 0 10px rgba(255,0,0,.60);
 
 }
 	#main-content header,
@@ -114,15 +112,9 @@ nav {
 		color: white;
 		text-align: center;
 		padding: 30px;
-<<<<<<< HEAD:index.css
-		margin-top: 500px;
-
-		box-shadow: 0 0 10px rgba(255,0,0,.50);
-
-=======
 		margin-top: 10px;
 		box-shadow: 0 0 10px rgba(255, 0, 0, 0.60);
->>>>>>> ff5d3894cebdc2910dd9441942a23f2ed2d1052f:posaidon4k.css
+
 	}
 		#main-footer p {
 			margin: 0;
