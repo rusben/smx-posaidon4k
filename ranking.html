@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head> <!-- cabecera principal -->
 	<meta charset="utf-8">
 	<title>Cabecera fija</title>
+
+
+        <link rel="stylesheet" href="posaidon4k.css"> <!-- el css que esta vinculado -->
+
 	<link rel="stylesheet" href="ranking.css">
+
 </head>
 
 <body>
 
+	<!-- Inicio main-header -->
 	<header id="main-header">
-
 		<a id="logo-header" href="index.html">
 
 			<h1>	<img src="images/logo5.png" align="left"/> </h1>
@@ -22,18 +27,20 @@
 				<li><a href="informacion.html">Información</a></li>
 			</ul>
 		</nav>
-
 	</header>
-
+	<!-- Fin main-header -->
+<!-- inicio main-content -->
 	<section id="main-content">
-
+    <!-- inicio articulo -->
 		<article>
 
+			<!-- Inicio div container -->
       <div class="container">
         <header>
           <h1>Ranking De Peliculas</h1>
         </header>
 
+				<!-- Inicio wrapper -->
         <div class="wrapper">
           <table>
             <thead>
@@ -46,47 +53,49 @@
             </thead>
             <tbody>
 
-	              <tr>
-									<a href="index.html">
-		                <td class="rank">1</td>
-		                <td class="table-image"><img src="imagenes/jumanji.jpg"width="200" height="200"/></td>
-		                <td class="team">Jumanji</td>
-		                <td class="points">89%</td>
-									</a>
-								</tr>
-              <tr>
+              <tr class="clickable" onclick="window.location='pjumanji.html';">
+                <td class="rank">1</td>
+                <td class="table-image"><img src="imagenes/jumanji.jpg"/></td>
+                <td class="team">Jumanji</td>
+                <td class="points">89%</td>
+              </tr>
+              <tr class="clickable" onclick="window.location='prey.html';">
+
                 <td class="rank">2</td>
-                <td class="table-image"><img src="imagenes/rey.jpg"width="200" height="200"></td>
+                <td class="table-image"><img src="imagenes/rey.jpg"/></td>
                 <td class="team">El Rey Arturo</td>
                 <td class="points">86%</td>
               </tr>
-              <tr>
+              <tr class="clickable" onclick="window.location='pvigilantes.html';">
                 <td class="rank">3</td>
-                <td class="table-image"><img src="imagenes/vigilante.jpg"width="200" height="200"></td>
+                <td class="table-image"><img src="imagenes/vigilante.jpg"/></td>
                 <td class="team">Los vigilantes de la playa</td>
                 <td class="points">85%</td>
               </tr>
-							<tr>
+							<tr class="clickable" onclick="window.location='pblack.html';">
                 <td class="rank">4</td>
-                <td class="table-image"><img src="imagenes/blackpanther.jpg"width="200" height="200"></td>
+                <td class="table-image"><img src="imagenes/blackpanther.jpg"/></td>
                 <td class="team">Black Panther</td>
                 <td class="points">80%</td>
               </tr>
-							<tr>
+							<tr class="clickable" onclick="window.location='pguardianes.html';">
                 <td class="rank">5</td>
-                <td class="table-image"><img src="imagenes/guardianes.jpg"width="200" height="200"></td>
+                <td class="table-image"><img src="imagenes/guardianes.jpg"/></td>
                 <td class="team">Los Guardianes de la Galaxia 2</td>
                 <td class="points">75%</td>
               </tr>
             </tbody>
           </table>
         </div>
+				<!-- Fin wrapper -->
       </div>
+			<!-- Fin container -->
 
 		</article>
-
+<!-- fin articulo -->
 	</section>
-
+<!-- fin main-content -->
+<!-- inicio main-footer -->
   <footer id="main-footer">
 		<p>&copy; 2018 Creadores: Dani Espigares, Juan José Sánchez y Kevin Núñez.</p>
 
@@ -95,6 +104,10 @@
 	 <a href="informacion.html">Informacion</a>
 
 	</footer>
+	<!-- fin main-footer -->
 
 </body>
+<!-- final body -->
+
 </html>
+<!-- final html -->
